@@ -69,7 +69,7 @@ void print(int s, int e, int n, long long cnt){
             printf("%c", ch(s));
             rep(i, cnt)
                 printf("AC");
-            for(int i = 1; i <= n - cnt * 2 - 1; ++i)
+            for(int i = 1; i <= n - cnt * 2 - 2; ++i)
                 printf("G");
             if(cnt * 2 + 1 < n)
                 printf("%c", ch(e));
